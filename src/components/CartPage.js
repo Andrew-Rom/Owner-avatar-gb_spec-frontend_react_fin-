@@ -249,6 +249,18 @@ const CartPage = () => {
                               ${product.price.toFixed(2)}
                             </span>
                           </p>
+                          <p className="cart-box__card_content">
+                           Color:&nbsp;
+                           <span className="cart-box__card_value">
+                             {product.color}
+                           </span>
+                         </p>
+                         <p className="cart-box__card_content">
+                           Size:&nbsp;
+                           <span className="cart-box__card_value">
+                             {product.size}
+                           </span>
+                         </p>
                           <label
                             htmlFor="quantity"
                             className="cart-box__card_content"

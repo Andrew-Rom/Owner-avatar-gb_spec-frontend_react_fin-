@@ -5,7 +5,7 @@ export const CartContext = createContext();
 
 // Создание компонента-провайдера корзины
 const CartContextProvider = (props) => {
-  // Имитация бэкенда: содержание корзины загружается из localStorage, если оно было сохрано в localStorage
+  // Имитация бэкенда: содержание корзины загружается из localStorage, если оно было сохранено в localStorage
   const [cartItems, setCartItems] = useState(
     JSON.parse(localStorage.getItem("cartItems")) || []
   );
